@@ -2,82 +2,65 @@ body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
+.h1 {
+  colar:rgb(0, 255, 242);
+ font-size: 70px;
+}
 ul {
-  list-style-type: "1f44d";
+  list-style-type: decimal;
+  font-size: xx-large;
 }
 .blue {
-  color: blue;
+  color: rgb(0, 204, 255);
+  font-size:  50px ;
 }
 a:hover {
   color: gray;
 }
-a: {
-  color: red;
-}
-#wel {
-  padding: 9px 5px 9px 5px;
-  border: 10px double rgb(12, 12, 12);
-  margin: 10px;
-}
-#wel2 {
-  padding: ;
-}
-.div1 {
-  color: aqua;
-  padding: 9px 5px 9px 5px;
-  border: 5px double rgb(4, 0, 255);
-  margin: 0 auto;
-  width: 50%;
-}
-.fake {
-  background-color: rgb(0, 0, 0);
-  height: 200px;
-}
-.continer {
-  background-color: blue;
-}
-img {
-  position: stick;
-  top: 10px;
+a{
+  color: rgb(247, 0, 255);
 }
 .container {
   background-color: rgb(14, 13, 14);
-  width: 800px;
-  height: 100px;
-  margin: 0 auto;
-  padding: 10px;
+  width:auto;
+  height: 70px;
+  border: 10px solid rgb(15, 153, 245);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 .item1 {
-  background-color: rgb(255, 174, 0);
-  color: rgb(255, 0, 0);
+  background-color: rgb(0, 255, 4);
+  color: rgb(255, 174, 0);
   width: 100px;
-  font-size: 36px;
+  font-size: large;
+  font-style: normal;
   text-align: center;
-  margin: 10px;
+  margin: auto 0;
+  cursor: pointer;
 }
 .item2 {
-  background-color: rgb(255, 174, 0);
-  color: rgb(255, 0, 0);
+  background-color: rgb(0, 255, 89);
+  color: rgb(255, 179, 0);
   width: 100px;
-  font-size: 36px;
+  font-size: large;
+  font-style: normal;
   text-align: center;
-  margin: 10px;
-}
-.item3 {
-  background-color: rgb(255, 174, 0);
-  color: rgb(255, 0, 0);
-  width: 100px;
-  font-size: 36px;
-  text-align: center;
-  margin: 10px;
-}
-.btn {
+  margin: auto 0;
   cursor: pointer;
+}
+.item1:hover {
+  background-color: rgb(255, 174, 0);
+}
+.item2:hover {
+  background-color: rgb(255, 174, 0);
 }
 .invisible {
   display: none;
+}
+.item1Info{
+  color: aqua;
+  font-size:xx-large
 }
